@@ -12,7 +12,7 @@ esquema_personaje = {
     "descripcion": str
 }
 
-# 2. Le ponemos el decorador a nuestra función
+# Le ponemos el decorador a nuestra función
 @schema_validator(esquema_personaje)
 def validar_mis_datos(diccionario_nuevo):
     return diccionario_nuevo
@@ -59,7 +59,6 @@ def ejecutar_prueba():
         diccionario_guardado = manager.obtener_diccionario(nombre_diccionario)
         
         diccionario_guardado["personaje_1"] = datos_revisados
-        
         
         # Modificamos la memoria interna y guardamos en el disco duro
         manager.modificar_diccionario(nombre_diccionario, diccionario_guardado)
