@@ -1,0 +1,9 @@
+personaje_1:
+  nombre: Andres Chirino
+  altura: 1.82
+  peso: 81.0
+  edad: 21
+  lista de habilidades:
+  - Python OOP
+  - Simulacion en Proteus
+  descripcion: Presidente de Biomecatronica USB
